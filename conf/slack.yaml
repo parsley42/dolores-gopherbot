@@ -1,0 +1,17 @@
+AdminUsers: [ "david" ]
+ProtocolConfig:
+  MaxMessageSplit: {{ env "GOPHER_SLACK_MAX_MSGS" | default "2" }}
+  AppToken: xapp-{{ decrypt "41Mao+oC6fDpi+M/ageI1c3VQWDr/YX0PplpNZfgmqv0oPAKiCtp7FHhZ7wUJ/sidf2USiZVOVoG8lbqz6GX1xh6wqaEB5shnCZtwxyROzKRt+wS9iAQTH+Qz92VfQ7rBnFjBn+4eUTHUk2LnZajZPs4GMVDU0dm" }}
+  BotToken: xoxb-{{ decrypt "LUyyn6xedd20jA7XmwpBHslVfbWWiox/XXi9kVK23hPIAYTxl6oO4b4DQ73vGh5IWgSnpo7EHBOk/lUARQygSOFg+CwQFBbxnCnEJx3/" }}
+
+DefaultChannels: [ "general", "random" ]
+
+UserRoster:
+  - UserName: david
+    UserID: U01UZCY5DK3
+  # - UserName: floyd
+  #   UserID: U138KTVCL
+  #   BotUser: true
+        
+{{ $defaultjobchannel := "bot-testing" }}
+DefaultJobChannel: {{ env "GOPHER_JOBCHANNEL" | default $defaultjobchannel }}
