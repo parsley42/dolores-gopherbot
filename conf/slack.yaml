@@ -13,53 +13,55 @@ UserRoster:
   - UserName: dolores
     UserID: U04F7V2DE2J
     BotUser: true
-  - UserName: josh
-    UserID: U2X690KD0
-  - UserName: alannah
-    UserID: U02AAC59WQZ
-  - UserName: jane
-    UserID: US8EB784T
-  - UserName: jon
-    UserID: U7PU9MPE0
-  - UserName: maggie
-    UserID: ULMRN6K40
-  - UserName: dylan
-    UserID: U373LABLZ
-  - UserName: cassandra
-    UserID: U2X498BFD
-  - UserName: dustin
-    UserID: U017PBB5526
-  - UserName: shannonlee
-    UserID: U01HHSPA55M
-  - UserName: csaxon
-    UserID: U02RN72PJHM
-  - UserName: blake
-    UserID: U03NN24PQ83
-  - UserName: caitlin
-    UserID: U0422TKGPJ7
-  - UserName: jeff
-    UserID: U04202C0ARK
-  - UserName: jessica
-    UserID: U6X3GS50A
-  - UserName: github
-    UserID: U01U5JNSLNB
-    BotUser: true
-  - UserName: successkid
-    # A.K.A. GitHubNotifier - but that's boring!
-    UserID: B025YNM8DPS
-    BotUser: true
-  - UserName: argosquid
-    UserID: B02GVS7S6US
-    BotUser: true
-  - UserName: bender
-    UserID: U02C61FHFRD
-    BotUser: true
-  - UserName: alita
-    UserID: U02CHVCKTHT
-    BotUser: true
-  - UserName: astro
-    UserID: U021BGTPERW
-    BotUser: true
+  # - UserName: josh
+  #   UserID: U2X690KD0
+  # - UserName: alannah
+  #   UserID: U02AAC59WQZ
+  # - UserName: jane
+  #   UserID: US8EB784T
+  # - UserName: jon
+  #   UserID: U7PU9MPE0
+  # - UserName: maggie
+  #   UserID: ULMRN6K40
+  # - UserName: dylan
+  #   UserID: U373LABLZ
+  # - UserName: cassandra
+  #   UserID: U2X498BFD
+  # - UserName: dustin
+  #   UserID: U017PBB5526
+  # - UserName: shannonlee
+  #   UserID: U01HHSPA55M
+  # - UserName: csaxon
+  #   UserID: U02RN72PJHM
+  # - UserName: blake
+  #   UserID: U03NN24PQ83
+  # - UserName: caitlin
+  #   UserID: U0422TKGPJ7
+  # - UserName: jeff
+  #   UserID: U04202C0ARK
+  # - UserName: jessica
+  #   UserID: U6X3GS50A
+  # - UserName: github
+  #   UserID: U01U5JNSLNB
+  #   BotUser: true
+  # - UserName: successkid
+  #   # A.K.A. GitHubNotifier - but that's boring!
+  #   UserID: B025YNM8DPS
+  #   BotUser: true
+  # - UserName: argosquid
+  #   UserID: B02GVS7S6US
+  #   BotUser: true
+  # - UserName: bender
+  #   UserID: U02C61FHFRD
+  #   BotUser: true
+  # - UserName: alita
+  #   UserID: U02CHVCKTHT
+  #   BotUser: true
+  # - UserName: astro
+  #   UserID: U021BGTPERW
+  #   BotUser: true
+
+
   # - UserName: floyd
   #   UserID: U138KTVCL
   #   BotUser: true
