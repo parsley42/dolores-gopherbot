@@ -12,6 +12,6 @@ when "configure", "init"
     exit
 when "roll"
     sides = ARGV.shift().to_i
-    value = 5
+    value = rand(1..sides)
     bot.Say "You rolled a #{value}"
 end
