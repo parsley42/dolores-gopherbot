@@ -4,3 +4,9 @@
 ProtocolConfig:
   EOF: ']quit'
   Abort: ']abort'
+  HearSelf: true
+  BotName: 'dolores'
+AppendUserRoster:
+- UserName: 'dolores'
+  UserID: 'u0000'
+  BotUser: true
